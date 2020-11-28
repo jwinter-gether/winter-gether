@@ -83,7 +83,7 @@ header {
   border-bottom-color: #adaabb;
 }
 
-
+/*
 header>#header-area>a>h1 {
   background: url('https://upload.tgd.kr/20201128/6b7592900f8a97f658b78ddad18c331f.png') no-repeat;
   background-size: auto 36px;
@@ -91,7 +91,7 @@ header>#header-area>a>h1 {
   height: unset !important;
   width: 98px;
 }
-
+*/
 header>#header-area>a>h1 {
   background: url('./source/logo/wgd-logo.png') no-repeat;
   background-size: auto 36px;
