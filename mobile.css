@@ -83,7 +83,7 @@ header {
   border-bottom-color: #adaabb;
 }
 
-/*
+
 header>#header-area>a>h1 {
   background: url('https://upload.tgd.kr/20201128/6b7592900f8a97f658b78ddad18c331f.png') no-repeat;
   background-size: auto 36px;
@@ -91,8 +91,8 @@ header>#header-area>a>h1 {
   height: unset !important;
   width: 98px;
 }
-*/
 
+/*
 header>#header-area>a>h1 {
   background: url('./source/logo/wgd-logo.png') no-repeat;
   background-size: auto 36px;
@@ -100,7 +100,7 @@ header>#header-area>a>h1 {
   height: unset !important;
   width: 98px;
 }
-
+*/
 header>#header-area>#header-search-link {
   color: #adaabb;
 }
@@ -153,7 +153,7 @@ header>#header-search-bar #header-search-btn {
 }
 
 /* 접속자수 아이콘 변경 */
-/*
+
 #board-info #viewers-area .fa-user:before {
   display: block;
   content: '';
@@ -161,8 +161,8 @@ header>#header-search-bar #header-search-btn {
   height: 19px;
   background: url("https://upload.tgd.kr/20201128/9eb6c0275e7fe25bcce5f7f22ac490f4.png") 0 0/19px 19px no-repeat;
 }
-*/
 
+/*
 #board-info #viewers-area .fa-user:before {
   display: block;
   content: '';
@@ -170,7 +170,7 @@ header>#header-search-bar #header-search-btn {
   height: 19px;
   background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
 }
-
+*/
 #board-info #viewers{
   color: #6242ad;
   margin-bottom: 5px;
@@ -271,15 +271,17 @@ float: left;
 
 #movetotop {
     display: inline-block;
-    opacity: 1;;
-    height: 100px;
-    width: 100px;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #movetotop img {
   content: url('./source/favicon/mtt_character.png');
+  height: 50px;
+  width: 50px;
 }
 
 /* 게시글 추천/비추천 버튼 */
