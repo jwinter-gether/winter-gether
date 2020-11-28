@@ -479,6 +479,14 @@ body {
 }
 */
 
+#board-info #viewers-area .fa-user:before {
+  display: block;
+  content: '';
+  width: 19px;
+  height: 19px;
+  background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
+}
+
 #board-info #viewers{
   color: #6242ad;
 }
