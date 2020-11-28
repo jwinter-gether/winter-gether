@@ -358,6 +358,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 }
 
+/* 게시판 점수 영역 */
+#board-info #score-area {
+  display: none;
+}
+
 /* 인기글 버튼 */
 
 #article-list #article-list-menu>.btn.best {
