@@ -84,7 +84,7 @@ header {
 }
 
 header>#header-area>a>h1 {
-  background: url('https://upload.tgd.kr/20201128/6b7592900f8a97f658b78ddad18c331f.png') no-repeat;
+  background: url("./source/logo/wgd-logo.png") no-repeat;
   background-size: auto 36px;
   background-repeat: no-repeat;
   height: unset !important;
@@ -149,7 +149,7 @@ header>#header-search-bar #header-search-btn {
   content: '';
   width: 19px;
   height: 19px;
-  background: url("https://upload.tgd.kr/20201128/9eb6c0275e7fe25bcce5f7f22ac490f4.png") 0 0/19px 19px no-repeat;
+  background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
 }
 
 #board-info #viewers{
@@ -250,6 +250,8 @@ float: left;
   color: #736b91;
 }
 
+
+/* 최상단 이동 버튼 */
 #movetotop {
     display: inline-block;
     opacity: 1;;
@@ -260,7 +262,7 @@ float: left;
 }
 
 #movetotop img {
-  content: url('');
+  content: url('./source/favicon/mtt_character.png');
 }
 
 /* 게시글 추천/비추천 버튼 */
