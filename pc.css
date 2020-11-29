@@ -229,8 +229,8 @@ select.form-control,
 input[type=checkbox],
 input[type=radio],
 .opt
- {
- cursor: url(https://upload.tgd.kr/20201006/d421dcedb593b9a9d1f046eb2e1dbb90.png) 0 0, auto !important;
+{
+  cursor: url("./source/favicon/mouse_cursor") 0 0, auto !important;
 }
 
 /* 마우스 커서 링크 */
@@ -246,7 +246,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
- cursor: url(https://upload.tgd.kr/20201006/d421dcedb593b9a9d1f046eb2e1dbb90.png) 0 0, auto !important;
+  cursor: url("./source/favicon/mouse_cursor") 0 0, auto !important;
 }
 
 /* 마우스 커서 텍스트 */
@@ -255,8 +255,8 @@ span#viewers,
 .fr-view,
 .fr-box.fr-basic.fr-element,
 input[type='text']
- {
- cursor: url(https://upload.tgd.kr/20201006/d421dcedb593b9a9d1f046eb2e1dbb90.png) 0 0, auto !important;
+{
+  cursor: url("./source/favicon/mouse_cursor") 0 0, auto !important;
 }
 
 /* 글쓰기 카테고리 배경색 */
