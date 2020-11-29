@@ -321,16 +321,16 @@ float: left;
 #movetotop {
     display: inline-block;
     opacity: 1;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #movetotop img {
   content: url('./source/favicon/mtt_character.png');
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
 }
 
 /* 게시글 추천/비추천 버튼 */
