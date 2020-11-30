@@ -465,13 +465,6 @@ body {
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-/* 접속자 수 색상 시작 */
-/*
-#board-info #viewers-area {
-  color: #736b91;
-}
-*/
-
 #board-info #viewers-area .fa-user:before {
   display: block;
   content: '';
@@ -482,6 +475,8 @@ body {
 
 #board-info #viewers{
   color: #6242ad;
+  font-weight:normal;
+  font-size: medium;
 }
 
 #board-info #viewers-area:after {
