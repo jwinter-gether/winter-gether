@@ -101,6 +101,54 @@ header #header-bar .fa {
   color: #736b91;
 }
 
+#board-info h1>a {
+  color: #736b91;
+  font-weight: bolder;
+}
+
+#board-info {
+    overflow: visible;
+}
+
+#board-info #board-info-profile-img{
+    float: left !important;
+    margin-right: 5px;
+    border-radius: 100px;
+    border: solid 1px #fdafab;
+}
+
+/* 접속자 수 표시 영역 */
+
+#board-info #viewers-area {
+    float: right;
+}
+
+#board-info #viewers-area .fa-user:before {
+  display: block;
+  content: '';
+  width: 19px;
+  height: 19px;
+  background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
+}
+
+#board-info #viewers{
+  color: #6242ad;
+  font-weight: normal;
+}
+
+#board-info #viewers-area:after {
+  content: " 명 접속 중!";
+  color: #6242ad !important;
+  font-weight: normal;
+}
+
+/* 즐겨찾기 버튼 */
+
+#board-info > #addFavoriteBtn i {
+  display: block;
+  color: #ffd535!important;
+}
+
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
 #main .menu-wrapper>a>em {
@@ -123,10 +171,20 @@ header #header-bar .fa {
 #article-list #article-list-category {
   border-top: 2px solid #736b91;
   background: white;
+  border-bottom: 2px solid #736b91;
 }
 
 #article-list #article-list-category>a {
   background: white;
+}
+
+#article-list #article-list-category > a.active {
+  color: #736b91;
+}
+
+#article-list #article-list-category > a:hover {
+  background: #736b91;
+  color: #ffffff;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
@@ -275,12 +333,6 @@ position: relative;
 
 }
 
-#board-info h1>a {
-  color: #736b91;
-  font-weight: bolder;
-
-}
-
 header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     border-radius: 10px;
 
@@ -293,24 +345,6 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 #main .menu-wrapper a:nth-last-child(1) {
     border-radius: 0px 0px 10px 10px;
-
-}
-
-#board-info {
-    overflow: visible;
-
-}
-
-#board-info #board-info-profile-img{
-    float: left !important;
-    margin-right: 5px;
-    border-radius: 100px;
-    border: solid 1px #fdafab;
-
-}
-
-#board-info #viewers-area {
-    float: right;
 
 }
 
@@ -465,37 +499,6 @@ body {
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-#board-info #viewers-area .fa-user:before {
-  display: block;
-  content: '';
-  width: 19px;
-  height: 19px;
-  background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
-}
-
-#board-info #viewers{
-  color: #6242ad;
-  font-weight:normal;
-  font-size: medium;
-}
-
-#board-info #viewers-area:after {
-  content: " 명 접속 중!";
-  color: #6242ad !important;
-}
-
-#board-info > #addFavoriteBtn i {
-  display: block;
-  color: #ffd535!important;
-}
-
-/* 접속자 수 색상 끝 */
-/*
-font-weight:normal;
-
-font-size: medium;
-
-}*/
 
 
 #article-list>.article-list-row>.item>.list-title>a:hover {
@@ -519,8 +522,8 @@ font-size: medium;
 
 }
 
-.category {color:#736b91 !important}
-
+.category {
+  color:#736b91 !important
 }
 
 
@@ -528,6 +531,8 @@ font-size: medium;
 *:focus { outline: none !important; }
 }
 
+
+/* 상단 이동 버튼 */
 
 #movetotop {
     display: inline-block;
@@ -543,7 +548,9 @@ font-size: medium;
   width: 100px;
 }
 
+
 /* 게시글 추천/비추천 버튼 */
+
 .vote-btn[data-type="up"] {
   border: none;
   font-size: 0;
@@ -650,11 +657,14 @@ font-size: medium;
 }
 
 /* 인기글 아이콘 애니메이션 효과 */
+
 @keyframes rotation{ from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
 
 span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 
+
 /* 스트리머 좋아요 하트 애니메이션 효과 */
+
 .fa-heart:before {
     color: #ff8d8d;
     animation: pulse 1.5s infinite;
