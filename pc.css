@@ -164,6 +164,16 @@ header #header-bar .fa {
 
 /* 게시글 관련부분 */
 
+.fa-home:before {
+  content: "\f015";
+  color: #DEDCEF;
+}
+
+.fa-home.active {
+  content: "\f015";
+  color: #736b91;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
   width: 120px !important;
 }
@@ -176,6 +186,7 @@ header #header-bar .fa {
 
 #article-list #article-list-category>a {
   background: white;
+  color: #6242ad;
 }
 
 #article-list #article-list-category > a.active {
@@ -183,8 +194,8 @@ header #header-bar .fa {
 }
 
 #article-list #article-list-category > a:hover {
-  background: #736b91;
-  color: #ffffff;
+  background: #ffffff;
+  color: #736b91;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
