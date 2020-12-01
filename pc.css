@@ -479,13 +479,18 @@ span.a-badge i.fa.fa-info-circle {
 
 }
 
+
+/* 인기글 상단, 하단 선 */
+#article-list > .article-list-row.hot {
+  border-top: 1px solid #6242ad;
+  border-bottom: 1px solid #6242ad;
+}
+
 /* 인기글 배경 */
 #article-list>.article-list-row.hot,
 #article-list>.article-list-row.hot>.item>.list-title>.list-category,
 #article-list>.article-list-row.hot>.item>.list-title>.list-writer {
   background-color: #ffffff;
-  border-top: 1px solid #6242ad;
-  border-bottom: 1px solid #6242ad;
   -webkit-animation: Gradation 5s infinite;
   -moz-animation: Gradation 5s infinite;
   animation: Gradation 5s infinite;
