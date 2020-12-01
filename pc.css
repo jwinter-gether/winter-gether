@@ -13,51 +13,51 @@ body {
 
 /* 키프레임 효과 */
 @-webkit-keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #0c1725 }
-  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
-  40% { border-color : #ff897a ; background-color : #190906 } 
-  60% { border-color : #97c566 ; background-color : #141f09 }
-  100% { border-color : #67a6ff ; background-color : #0b1423 }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 @-moz-keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #0c1725 }
-  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
-  40% { border-color : #ff897a ; background-color : #190906 } 
-  60% { border-color : #97c566 ; background-color : #141f09 }
-  100% { border-color : #67a6ff ; background-color : #0b1423 }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 @keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #0c1725 }
-  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
-  40% { border-color : #ff897a ; background-color : #190906 } 
-  60% { border-color : #97c566 ; background-color : #141f09 }
-  100% { border-color : #67a6ff ; background-color : #0b1423 }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 @-webkit-keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #e4efff }
-  20% { border-color : #ef6ee5; background-color : #ffecfe }
-  40% { border-color : #ff897a; background-color : #ffefed }
-  60% { border-color : #97c566; background-color : #f1ffe2 }
-  100% { border-color : #67a6ff; background-color : #e7f1ff }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 @-moz-keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #e4efff }
-  20% { border-color : #ef6ee5; background-color : #ffecfe }
-  40% { border-color : #ff897a; background-color : #ffefed }
-  60% { border-color : #97c566; background-color : #f1ffe2 }
-  100% { border-color : #67a6ff; background-color : #e7f1ff }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 @keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #e4efff }
-  20% { border-color : #ef6ee5; background-color : #ffecfe }
-  40% { border-color : #ff897a; background-color : #ffefed }
-  60% { border-color : #97c566; background-color : #f1ffe2 }
-  100% { border-color : #67a6ff; background-color : #e7f1ff }
+  0% { border-color : #67a6ff; background-color : #9ea3e3 }
+  20% { border-color : #ef6ee5 ; background-color : #d7abff }
+  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
+  60% { border-color : #97c566 ; background-color : #93efd9 }
+  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
 }
 
 /* 전체 쉐도우 */
@@ -748,7 +748,6 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
     border-radius: 50%;
     box-shadow: 0 0 0 rgba(255,141,141, 0.4);
 }
-
 
 .fa-eye:before {
     color: #736b91;
