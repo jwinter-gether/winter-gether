@@ -484,20 +484,22 @@ span.a-badge i.fa.fa-info-circle {
 #article-list > .article-list-row.hot {
   border-top: 1px solid #6242ad;
   border-bottom: 1px solid #6242ad;
-}
-
-/* 인기글 배경 */
-#article-list>.article-list-row.hot,
-#article-list>.article-list-row.hot>.item>.list-title>.list-category,
-#article-list>.article-list-row.hot>.item>.list-title>.list-writer {
   background-color: -webkit-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
   background-color: -o-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
   background-color: linear-gradient(to top right, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
-  background-color: #ffffff;
-  -webkit-animation: GradTransition 5s infinite;
-  -moz-animation: GradTransition 5s infinite;
-  animation: GradTransition 5s infinite;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; ba(255,255,255,0);
 }
+
+/* hot post background */
+#article-list>.article-list-row.hot,
+#article-list>.article-list-row.hot>.item>.list-title>.list-category,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer {
+  background-color: #f3f8ff;
+  -webkit-animation: GradTransition 5s infinite;
+  -moz-animation: GradTransiton 5s infinite;
+  animation: GradTransition 5s infinite;
 
 
 /* 읽은 글 색상 처리 */
@@ -717,7 +719,7 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 }
 
 /* 키프레임 효과 */
-@keyframes Gradation {
+@keyframes GradationColorBG {
   000% { color: #ffffff; }
   010% { color: #6242ad; }
   020% { color: #ffb8b8; }
@@ -740,6 +742,24 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
+}
+
+@-webkit-keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 @-webkit-keyframes pulse {
