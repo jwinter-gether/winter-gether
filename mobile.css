@@ -274,6 +274,17 @@ float: left;
 
 }
 
+/* 인기글 배경 */
+#article-list > .article-list-row.hot {
+  background-color: #ffffff;
+  border-top: 1px solid #6242ad;
+  border-bottom: 1px solid #6242ad;
+  -webkit-animation: 5s infinite GradationPulse;
+  -moz-animation: 5s infinite GradationPulse;
+  animation: 5s infinite GradationPulse;
+}
+
+
 /*
 #article-list > .article-list-row > .item > .list-header > span {
   background-color: #6242ad;

@@ -411,7 +411,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list #article-list-menu>.btn.best {
     border-radius: 15px;
-
 }
 
 /* 설정 버튼 */
@@ -480,6 +479,18 @@ span.a-badge i.fa.fa-info-circle {
 
 }
 
+/* 인기글 배경 */
+#article-list > .article-list-row.hot {
+  background-color: #ffffff;
+  border-top: 1px solid #6242ad;
+  border-bottom: 1px solid #6242ad;
+  -webkit-animation: 5s infinite GradationPulse;
+  -moz-animation: 5s infinite GradationPulse;
+  animation: 5s infinite GradationPulse;
+}
+
+
+/* 읽은 글 색상 처리 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
   color: #736b91 !important
 
@@ -525,6 +536,7 @@ body {
 
 }
 
+
 /* 게시글 튀어나오는 효과 */
 
 #article-list>.article-list-row:hover {
@@ -546,11 +558,11 @@ body {
 /* 상단 이동 버튼 */
 
 #movetotop {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #movetotop img {
