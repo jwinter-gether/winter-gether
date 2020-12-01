@@ -313,13 +313,16 @@ float: left;
   border-top: 1px solid #6242ad;
 }
 
-
-/* 인기글 */
-#article-list > .article-list-row.hot {
+/* 인기글 배경 */
+#article-list>.article-list-row.hot,
+#article-list>.article-list-row.hot>.item>.list-title>.list-category,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer {
   background-color: #ffffff;
   border-top: 1px solid #6242ad;
   border-bottom: 1px solid #6242ad;
-  animation: 5s GradationPulse infinite;
+  -webkit-animation: Gradation 5s infinite;
+  -moz-animation: Gradation 5s infinite;
+  animation: Gradation 5s infinite;
 }
 
 #article-list > .article-list-row > .item > a.list-title > small.comment-count {
