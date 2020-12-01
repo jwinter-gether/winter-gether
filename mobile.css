@@ -477,17 +477,17 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 }
 
 /* 키프레임 효과 */
-@keyframes GradationPulse {
+@keyframes Gradation {
   000% { color: #ffffff; }
   010% { color: #6242ad; }
-  020% { color: #736b91; }
-  030% { color: #adaabb; }
-  040% { color: #8d88a2; }
-  050% { color: #ffeeee; }
-  060% { color: #8d88a2; }
-  070% { color: #736b91; }
-  080% { color: #adaabb; }
-  090% { color: #6242ad; }
+  020% { color: #ffb8b8; }
+  030% { color: #d7abff; }
+  040% { color: #93efd9; }
+  050% { color: #9ea3e3; }
+  060% { color: #ffb8b8; }
+  070% { color: #d7abff; }
+  080% { color: #93efd9; }
+  090% { color: #9ea3e3; }
   100% { color: #ffffff; }
 }
 
