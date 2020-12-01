@@ -490,10 +490,13 @@ span.a-badge i.fa.fa-info-circle {
 #article-list>.article-list-row.hot,
 #article-list>.article-list-row.hot>.item>.list-title>.list-category,
 #article-list>.article-list-row.hot>.item>.list-title>.list-writer {
+  background-color: -webkit-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
+  background-color: -o-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
+  background-color: linear-gradient(to top right, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
   background-color: #ffffff;
-  -webkit-animation: Gradation 5s infinite;
-  -moz-animation: Gradation 5s infinite;
-  animation: Gradation 5s infinite;
+  -webkit-animation: GradTransition 5s infinite;
+  -moz-animation: GradTransition 5s infinite;
+  animation: GradTransition 5s infinite;
 }
 
 
@@ -726,6 +729,17 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
   080% { color: #93efd9; }
   090% { color: #9ea3e3; }
   100% { color: #ffffff; }
+}
+
+@keyframes GradTransition {
+  animation-name: GradTransition;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
 @-webkit-keyframes pulse {
