@@ -276,12 +276,14 @@ float: left;
 
 /* 인기글 배경 */
 #article-list > .article-list-row.hot {
-  background-color: #ffffff;
+  background-color: -webkit-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
+  background-color: -o-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
+  background-color: linear-gradient(to top right, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
   border-top: 1px solid #6242ad;
   border-bottom: 1px solid #6242ad;
-  -webkit-animation: 5s infinite GradationPulse;
-  -moz-animation: 5s infinite GradationPulse;
-  animation: 5s infinite GradationPulse;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; ba(255,255,255,0);
 }
 
 
