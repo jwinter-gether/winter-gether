@@ -11,6 +11,55 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* 키프레임 효과 */
+@-webkit-keyframes GradationA {
+  0% { border-color : #67a6ff; background-color : #0c1725 }
+  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
+  40% { border-color : #ff897a ; background-color : #190906 } 
+  60% { border-color : #97c566 ; background-color : #141f09 }
+  100% { border-color : #67a6ff ; background-color : #0b1423 }
+}
+
+@-moz-keyframes GradationA {
+  0% { border-color : #67a6ff; background-color : #0c1725 }
+  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
+  40% { border-color : #ff897a ; background-color : #190906 } 
+  60% { border-color : #97c566 ; background-color : #141f09 }
+  100% { border-color : #67a6ff ; background-color : #0b1423 }
+}
+
+@keyframes GradationA {
+  0% { border-color : #67a6ff; background-color : #0c1725 }
+  20% { border-color : #ef6ee5 ; background-color : #1d0a1b }
+  40% { border-color : #ff897a ; background-color : #190906 } 
+  60% { border-color : #97c566 ; background-color : #141f09 }
+  100% { border-color : #67a6ff ; background-color : #0b1423 }
+}
+
+@-webkit-keyframes GradationB {
+  0% { border-color : #67a6ff; background-color : #e4efff }
+  20% { border-color : #ef6ee5; background-color : #ffecfe }
+  40% { border-color : #ff897a; background-color : #ffefed }
+  60% { border-color : #97c566; background-color : #f1ffe2 }
+  100% { border-color : #67a6ff; background-color : #e7f1ff }
+}
+
+@-moz-keyframes GradationB {
+  0% { border-color : #67a6ff; background-color : #e4efff }
+  20% { border-color : #ef6ee5; background-color : #ffecfe }
+  40% { border-color : #ff897a; background-color : #ffefed }
+  60% { border-color : #97c566; background-color : #f1ffe2 }
+  100% { border-color : #67a6ff; background-color : #e7f1ff }
+}
+
+@keyframes GradationB {
+  0% { border-color : #67a6ff; background-color : #e4efff }
+  20% { border-color : #ef6ee5; background-color : #ffecfe }
+  40% { border-color : #ff897a; background-color : #ffefed }
+  60% { border-color : #97c566; background-color : #f1ffe2 }
+  100% { border-color : #67a6ff; background-color : #e7f1ff }
+}
+
 /* 전체 쉐도우 */
 
 header #header-bar>.row,
@@ -482,14 +531,23 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 인기글 상단, 하단 선 */
 #article-list > .article-list-row.hot {
+  background-color:#f3f8ff;
   border-top: 1px solid #6242ad;
   border-bottom: 1px solid #6242ad;
+  -webkit-animation:5s infinite GradationB;
+  -moz-animation:5s infinite GradationB;
+  animation:5s infinite GradationB
+}
+
+#article-list > .article-list-row.hot{
+  -webkit-animation : 5s infinite GradationA ;
+  -moz-animation : 5s infinite GradationA ;
+  animation : 5s infinite GradationA ;
 }
 
 /* 읽은 글 색상 처리 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
   color: #736b91 !important
-
 }
 
 html {
@@ -700,32 +758,6 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 .fa-commenting:before {
     color: #736b91;
     content: "\f27a";
-}
-
-/* 키프레임 효과 */
-@keyframes Gradation {
-  000% { color: #ffffff; }
-  010% { color: #6242ad; }
-  020% { color: #ffb8b8; }
-  030% { color: #d7abff; }
-  040% { color: #93efd9; }
-  050% { color: #9ea3e3; }
-  060% { color: #ffb8b8; }
-  070% { color: #d7abff; }
-  080% { color: #93efd9; }
-  090% { color: #9ea3e3; }
-  100% { color: #ffffff; }
-}
-
-@keyframes GradTransition {
-  animation-name: GradTransition;
-  animation-duration: 5s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
 }
 
 @-webkit-keyframes pulse {
