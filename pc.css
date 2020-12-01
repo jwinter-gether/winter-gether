@@ -484,22 +484,7 @@ span.a-badge i.fa.fa-info-circle {
 #article-list > .article-list-row.hot {
   border-top: 1px solid #6242ad;
   border-bottom: 1px solid #6242ad;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  -webkit-animation: ColorGradation 15s ease infinite;
-  -moz-animation: ColorGradation 15s ease infinite;
-  -o-animation: ColorGradation 15s ease infinite;
-  animation: ColorGradation 15s ease infinite
 }
-
-/* hot post background */
-#article-list>.article-list-row.hot,
-#article-list>.article-list-row.hot>.item>.list-title>.list-category,
-#article-list>.article-list-row.hot>.item>.list-title>.list-writer {
-  background-color: #f3f8ff;
-  -webkit-animation: GradTransition 5s infinite;
-  -moz-animation: GradTransiton 5s infinite;
-  animation: GradTransition 5s infinite;
-
 
 /* 읽은 글 색상 처리 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -718,7 +703,7 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 }
 
 /* 키프레임 효과 */
-@keyframes GradationColorBG {
+@keyframes Gradation {
   000% { color: #ffffff; }
   010% { color: #6242ad; }
   020% { color: #ffb8b8; }
@@ -742,31 +727,6 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
   animation-fill-mode: none;
   animation-play-state: running;
 }
-
-@-webkit-keyframes ColorGradation {
-  0% { background-position : 0% 50% }
-  50% { background-position : 100% 50% }
-  100% { background-position : 0% 50% }
-}
-
-@-moz-keyframes ColorGradation {
-  0% { background-position : 0% 50% }
-  50% { background-position : 100% 50% }
-  100% { background-position : 0% 50% }
-}
-
-@-o-keyframes ColorGradation {
-  0% { background-position : 0% 50% }
-  50% { background-position : 100% 50% }
-  100% { background-position : 0% 50% }
-}
-
-@keyframes ColorGradation {
-  0% { background-position : 0% 50% }
-  50% { background-position : 100% 50% }
-  100% { background-position : 0% 50% }
-}
-
 
 @-webkit-keyframes pulse {
   0% {
