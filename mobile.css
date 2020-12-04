@@ -302,15 +302,19 @@ float: left;
 
 /* 인기글 상단, 하단 선 */
 
-#article-list > .article-list-row.hot{
-  -webkit-animation : 5s infinite GradationA ;
-  -moz-animation : 5s infinite GradationA ;
-  animation : 5s infinite GradationA ;
+#article-list > .article-list-row.hot {
+  border-top: solid 1px #736b91;
+  border-bottom: solid 1px #736b91;
+  box-sizing: border-box;
 }
 
 #article-list > .article-list-row.hot,
+#article-list > .article-list-row.hot > .item,
 #article-list > .article-list-row.hot > .item > .list-title > .list-category,
 #article-list > .article-list-row.hot > .item > .list-title > .list-writer {
+  -webkit-animation : 5s infinite GradationA;
+  -moz-animation : 5s infinite GradationA;
+  animation : 5s infinite GradationA;
   border-left: 0;
   border-right: 0;
 }
