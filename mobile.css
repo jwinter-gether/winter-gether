@@ -43,27 +43,27 @@
 
 /* 키프레임 효과 */
 @-webkit-keyframes GradationA {
-  0% { border-color : #9ea3e3; background-color : #c1c3dc }
-  20% { border-color : #d7abff ; background-color : #efddff }
-  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
-  60% { border-color : #93efd9 ; background-color : #c5ece3 }
-  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+  0% { border-color : #67a6ff; background-color : #c1c3dc }
+  20% { border-color : #ef6ee5 ; background-color : #efddff }
+  40% { border-color : #ff897a ; background-color : #ffdddd } 
+  60% { border-color : #97c566 ; background-color : #c5ece3 }
+  100% { border-color : #67a6ff ; background-color : #c1c3dc }
 }
 
 @-moz-keyframes GradationA {
-  0% { border-color : #9ea3e3; background-color : #c1c3dc }
-  20% { border-color : #d7abff ; background-color : #efddff }
-  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
-  60% { border-color : #93efd9 ; background-color : #c5ece3 }
-  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+  0% { border-color : #67a6ff; background-color : #c1c3dc }
+  20% { border-color : #ef6ee5 ; background-color : #efddff }
+  40% { border-color : #ff897a ; background-color : #ffdddd } 
+  60% { border-color : #97c566 ; background-color : #c5ece3 }
+  100% { border-color : #67a6ff ; background-color : #c1c3dc }
 }
 
 @keyframes GradationA {
-  0% { border-color : #9ea3e3; background-color : #c1c3dc }
-  20% { border-color : #d7abff ; background-color : #efddff }
-  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
-  60% { border-color : #93efd9 ; background-color : #c5ece3 }
-  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+  0% { border-color : #67a6ff; background-color : #c1c3dc }
+  20% { border-color : #ef6ee5 ; background-color : #efddff }
+  40% { border-color : #ff897a ; background-color : #ffdddd } 
+  60% { border-color : #97c566 ; background-color : #c5ece3 }
+  100% { border-color : #67a6ff ; background-color : #c1c3dc }
 }
 
 
