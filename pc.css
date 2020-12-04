@@ -13,51 +13,75 @@ body {
 
 /* 키프레임 효과 */
 @-webkit-keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
 }
 
 @-moz-keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
 }
 
 @keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
 }
 
+/*@-webkit-keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
+}
+
+@-moz-keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
+}
+
+@keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
+}*/
+
 @-webkit-keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
 }
 
 @-moz-keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
 }
 
 @keyframes GradationB {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #67a6ff ; background-color : #9ea3e3 }
+  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
+  20% { border-color : #d7abff ; background-color : #d7abff }
+  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
+  60% { border-color : #93efd9 ; background-color : #93efd9 }
+  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
 }
 
 /* 전체 쉐도우 */
@@ -530,20 +554,20 @@ span.a-badge i.fa.fa-info-circle {
 
 
 /* 인기글 상단, 하단 선 */
-#article-list > .article-list-row.hot {
-  background-color:#f3f8ff;
-  border-top: 1px solid #6242ad;
-  border-bottom: 1px solid #6242ad;
-  -webkit-animation:5s infinite GradationB;
-  -moz-animation:5s infinite GradationB;
-  animation:5s infinite GradationB
-}
 
 #article-list > .article-list-row.hot{
   -webkit-animation : 5s infinite GradationA ;
   -moz-animation : 5s infinite GradationA ;
   animation : 5s infinite GradationA ;
 }
+
+#article-list > .article-list-row.hot,
+#article-list > .article-list-row.hot > .item > .list-title > .list-category,
+#article-list > .article-list-row.hot > .item > .list-title > .list-writer {
+  border-left: 0;
+  border-right: 0;
+}
+
 
 /* 읽은 글 색상 처리 */
 #article-list>.article-list-row>.item>.list-title>a:visited {

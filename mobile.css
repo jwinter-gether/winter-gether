@@ -40,6 +40,33 @@
        url('../fonts/NanumGothic/NanumGothic-ExtraBold.ttf') format('truetype');
 }
 
+
+/* 키프레임 효과 */
+@-webkit-keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+}
+
+@-moz-keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+}
+
+@keyframes GradationA {
+  0% { border-color : #9ea3e3; background-color : #c1c3dc }
+  20% { border-color : #d7abff ; background-color : #efddff }
+  40% { border-color : #ffb8b8 ; background-color : #ffdddd } 
+  60% { border-color : #93efd9 ; background-color : #c5ece3 }
+  100% { border-color : #9ea3e3 ; background-color : #c1c3dc }
+}
+
+
 /*
 body {
 letter-spacing: -0.05em !important;
@@ -47,7 +74,6 @@ letter-spacing: -0.05em !important;
   font-family: 'SeoulNamsanM', sans-serif;
 }
 */
-
 
 body {
   letter-spacing: -0.05em !important;
@@ -274,12 +300,20 @@ float: left;
 
 }
 
-/* 인기글 배경 */
-#article-list > .article-list-row.hot {
-  border-top: 1px solid #6242ad;
-  border-bottom: 1px solid #6242ad;
+/* 인기글 상단, 하단 선 */
+
+#article-list > .article-list-row.hot{
+  -webkit-animation : 5s infinite GradationA ;
+  -moz-animation : 5s infinite GradationA ;
+  animation : 5s infinite GradationA ;
 }
 
+#article-list > .article-list-row.hot,
+#article-list > .article-list-row.hot > .item > .list-title > .list-category,
+#article-list > .article-list-row.hot > .item > .list-title > .list-writer {
+  border-left: 0;
+  border-right: 0;
+}
 
 /*
 #article-list > .article-list-row > .item > .list-header > span {
@@ -474,20 +508,8 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
     content: "\f27a";
 }
 
-/* 키프레임 효과 */
-@keyframes Gradation {
-  000% { color: #ffffff; }
-  010% { color: #6242ad; }
-  020% { color: #ffb8b8; }
-  030% { color: #d7abff; }
-  040% { color: #93efd9; }
-  050% { color: #9ea3e3; }
-  060% { color: #ffb8b8; }
-  070% { color: #d7abff; }
-  080% { color: #93efd9; }
-  090% { color: #9ea3e3; }
-  100% { color: #ffffff; }
-}
+
+/* 후순위 키프레임 효과 */
 
 @keyframes GradTransition {
   animation-name: GradTransition;
