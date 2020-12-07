@@ -347,19 +347,6 @@ float: left;
   border-top: 1px solid #6242ad;
 }
 
-/* 인기글 배경 */
-#article-list>.article-list-row.hot,
-#article-list>.article-list-row.hot>.item>.list-title>.list-category,
-#article-list>.article-list-row.hot>.item>.list-title>.list-writer {
-  background-color: -webkit-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
-  background-color: -o-linear-gradient(bottom left, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
-  background-color: linear-gradient(to top right, #ffb8b8, #d7abff, #9ea3e3, #93efd9);
-  background-color: #ffffff;
-  -webkit-animation: GradTransition 5s infinite;
-  -moz-animation: GradTransition 5s infinite;
-  animation: GradTransition 5s infinite;
-}
-
 #article-list > .article-list-row > .item > a.list-title > small.comment-count {
   color: #736b91;
   letter-spacing: -0.05em !important;
