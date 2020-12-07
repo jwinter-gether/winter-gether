@@ -308,6 +308,10 @@ float: left;
   box-sizing: border-box;
 }
 
+#article-list > .article-list-row.hot > .item > .list-title > .list-writer {
+  background-color: transparent;
+}
+
 #article-list > .article-list-row.hot,
 #article-list > .article-list-row.hot > .item,
 #article-list > .article-list-row.hot > .item > .list-title > .list-category,
