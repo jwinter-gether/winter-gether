@@ -621,10 +621,10 @@ body {
 
 /* 게시글 튀어나오는 효과 */
 
-#article-list>.article-list-row:hover {
-
-    transform: scale(1.01);
-
+#article-list .article-list-row:hover, #article-list div.article-list-row.notice:hover, #article-neighbor-list>div:hover {
+   transform: scale(1.02);
+   transition: all 0.3s ease-in-out;
+   box-shadow: 3px 5px 10px -5px black;
 }
 
 .category {
