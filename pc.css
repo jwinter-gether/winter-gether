@@ -198,7 +198,7 @@ header #header-bar .fa {
 
 #board-info #viewers-area .fa-user:before {
   display: block;
-  content: "겨울나라 요정들 ";
+  content: "";
   width: 19px;
   height: 19px;
   background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
@@ -210,7 +210,7 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area:after {
-  content: " 명 열일 중!";
+  content: " 명 접속 중!";
   color: #6242ad !important;
   font-weight: normal;
 }
