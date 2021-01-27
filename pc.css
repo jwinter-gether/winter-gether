@@ -73,6 +73,7 @@ header #header-bar>.row,
   background: #fff url("./source/bg_char/chachya_char.png") no-repeat;
   background-size: 500px 795px;
   background-position: bottom right;
+  opacity: 0.5;
 }
 
 /* 로고밑 NAV bar */
