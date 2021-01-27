@@ -130,11 +130,6 @@ header #right-search-form>input[type='text'] {
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
-
-#main .menu-wrapper>.header {
-  background: #736b91;
-}
-
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
@@ -143,10 +138,6 @@ header #right-search-form>input[type='text'] {
 
 .fa-square:before {
   color: #736b91;
-}
-
-#main .menu-wrapper {
-  border: none;
 }
 
 /* 헤더 검색 버튼 */
