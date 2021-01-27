@@ -92,12 +92,18 @@ header #header-bar>.row,
   box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* 게시판 영역 배경화면 */
+#main #main-content>div.frame {
+  background: #fff url("") no-repeat;
+}
+
 /* 로고밑 NAV bar */
 
 header #header-bar>.row {
   border-top: 4px solid #736b91;
   border-right: none;
   border-bottom: none;
+  border-radius: 10px;
 }
 
 /* 헤더 배너 */
@@ -137,13 +143,6 @@ header #right-search-form>input[type='text'] {
 
 .fa-square:before {
   color: #736b91;
-}
-
-header #header-bar>.row,
-#main .menu-wrapper,
-#main #main-content>div.frame {
-  border-right: none;
-  border-bottom: none;
 }
 
 #main .menu-wrapper {
@@ -428,11 +427,6 @@ margin-bottom: 4px;
 #article-list #article-list-category>a {
 background:  #736b91;
 position: relative;
-
-}
-
-header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
-    border-radius: 10px;
 
 }
 
