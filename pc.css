@@ -215,7 +215,7 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area:before {
-  content: "겨울나라 겨울요정 ";
+  content: "겨울나라 겨울요정";
   color: #6242ad !important;
   font-weight: normal;
 }
