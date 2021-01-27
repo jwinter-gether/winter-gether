@@ -61,7 +61,6 @@ body {
 }
 
 /* 전체 쉐도우 */
-
 header #header-bar>.row,
 #main .menu-wrapper,
 #main #main-content>div.frame {
@@ -70,13 +69,24 @@ header #header-bar>.row,
 
 /* 게시판 영역 배경화면 */
 #main #main-content>div.frame {
+  position: relative;
+  z-index: 1;
+}
+
+#main #main-content>div.frame:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: #fff url("./source/bg_char/chachya_char.png") no-repeat;
   background-size: 500px 795px;
   background-position: bottom right;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 /* 로고밑 NAV bar */
-
 header #header-bar>.row {
   border-top: 4px solid #736b91;
   border-right: none;
@@ -85,7 +95,6 @@ header #header-bar>.row {
 }
 
 /* 헤더 배너 */
-
 header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
@@ -102,7 +111,6 @@ header .row>div:nth-child(1)>a>img {
 }
 
 /* 검색폼 보더 */
-
 header #right-search-form>input[type='text'] {
   border: 3px solid #736b91;
 }
