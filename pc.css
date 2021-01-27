@@ -194,6 +194,8 @@ header #header-bar .fa {
 
 #board-info #viewers-area {
     float: right;
+    position: relative;
+    padding-left: 20px;
 }
 
 /*#board-info #viewers-area .fa-user:before {
@@ -205,6 +207,9 @@ header #header-bar .fa {
 
 #board-info #viewers-area .fa-user:before {
   display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
   content: "";
   width: 19px;
   height: 19px;
