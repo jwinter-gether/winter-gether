@@ -69,21 +69,9 @@ header #header-bar>.row,
 
 /* 게시판 영역 배경화면 */
 #main #main-content>div.frame {
-  position: relative;
-}
-
-#main #main-content>div.frame:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
   background: #fff url("./source/bg_char/chachya_char.png") no-repeat;
   background-size: 500px 795px;
   background-position: bottom right;
-  opacity: 0.3 !important;
-  filter: alpha(opacity=50);
-  z-index: -1;
 }
 
 /* 로고밑 NAV bar */
