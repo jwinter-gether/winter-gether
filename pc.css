@@ -70,7 +70,6 @@ header #header-bar>.row,
 /* 게시판 영역 배경화면 */
 #main #main-content>div.frame {
   position: relative;
-  z-index: 1;
 }
 
 #main #main-content>div.frame:after {
@@ -82,7 +81,8 @@ header #header-bar>.row,
   background: #fff url("./source/bg_char/chachya_char.png") no-repeat;
   background-size: 500px 795px;
   background-position: bottom right;
-  opacity: 0.3;
+  opacity: 0.3 !important;
+  filter: alpha(opacity=50);
   z-index: -1;
 }
 
