@@ -196,28 +196,27 @@ header #header-bar .fa {
     float: right;
 }
 
-#board-info #viewers-area .fa-user:before {
+/*#board-info #viewers-area .fa-user:before {
   display: block;
   content: "";
   width: 19px;
   height: 19px;
   background: url("./source/favicon/viewers_mark.png") 0 0/19px 19px no-repeat;
-  content: "겨울나라 겨울요정" ;
-}
+}*/
 
 #board-info #viewers{
   color: #6242ad;
   font-weight: normal;
 }
 
-/*#board-info #viewers-area:before {
+#board-info #viewers-area:before {
   content: "겨울나라 겨울요정 ";
   color: #6242ad !important;
   font-weight: normal;
 }
-*/
+
 #board-info #viewers-area:after {
-  content: " 명 열일 중!";
+  content: " 명 열이 중!";
   color: #6242ad !important;
   font-weight: normal;
 }
