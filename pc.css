@@ -198,13 +198,6 @@ header #header-bar .fa {
     padding-left: 20px;
 }
 
-/*#board-info #viewers-area .fa-user:before {
-  display: block;
-  content: "";
-  width: 19px;
-  height: 19px;
-}*/
-
 #board-info #viewers-area .fa-user:before {
   display: block;
   position: absolute;
