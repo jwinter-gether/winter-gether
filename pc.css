@@ -223,7 +223,7 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area:after {
-  content: " 명 열이 중!";
+  content: " 명 열일 중!";
   color: #6242ad !important;
   font-weight: normal;
 }
