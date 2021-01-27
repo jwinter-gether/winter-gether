@@ -36,30 +36,6 @@ body {
   100% { border-color : #67a6ff ; background-color : #c1c3dc }
 }
 
-/*@-webkit-keyframes GradationA {
-  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
-  20% { border-color : #d7abff ; background-color : #d7abff }
-  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
-  60% { border-color : #93efd9 ; background-color : #93efd9 }
-  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
-}
-
-@-moz-keyframes GradationA {
-  0% { border-color : #9ea3e3; background-color : #9ea3e3 }
-  20% { border-color : #d7abff ; background-color : #d7abff }
-  40% { border-color : #ffb8b8 ; background-color : #ffb8b8 } 
-  60% { border-color : #93efd9 ; background-color : #93efd9 }
-  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
-}
-
-@keyframes GradationA {
-  0% { border-color : #67a6ff; background-color : #9ea3e3 }
-  20% { border-color : #ef6ee5 ; background-color : #d7abff }
-  40% { border-color : #ff897a ; background-color : #ffb8b8 } 
-  60% { border-color : #97c566 ; background-color : #93efd9 }
-  100% { border-color : #9ea3e3 ; background-color : #9ea3e3 }
-}*/
-
 @-webkit-keyframes GradationB {
   0% { border-color : #67a6ff; background-color : #c1c3dc }
   20% { border-color : #ef6ee5 ; background-color : #efddff }
@@ -208,7 +184,7 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area:before {
-  content: "겨울나라 겨울요정 ";
+  content: "겨울나라 겨울요정  ";
   color: #6242ad !important;
   font-weight: normal;
 }
