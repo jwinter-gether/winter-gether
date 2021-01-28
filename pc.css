@@ -69,8 +69,8 @@ header #header-bar>.row,
 
 /* 게시판 영역 배경화면 */
 #main #main-content>div.frame {
-  background: #fff url("./source/bg_char/chachya_char.png") no-repeat;
-  background-size: 500px 795px;
+  background: #fff url("./source/bg_char/chachya_char_opacity_2.png") no-repeat;
+  /*background-size: 440px 700px;*/
   background-position: bottom right;
 }
 
@@ -182,9 +182,10 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area:before {
-  content: "겨울나라 겨울요정 ";
+  content: "겨울나라 겨울요정";
   color: #6242ad !important;
   font-weight: normal;
+  padding-right: 4px;
 }
 
 #board-info #viewers-area:after {
@@ -594,10 +595,13 @@ body {
 
 /* 게시글 튀어나오는 효과 */
 
-#article-list .article-list-row:hover, #article-list div.article-list-row.notice:hover, #article-neighbor-list>div:hover {
+#article-list .article-list-row:hover,
+#article-list div.article-list-row.notice:hover,
+#article-neighbor-list>div:hover {
    transform: scale(1.02);
    transition: all 0.3s ease-in-out;
    box-shadow: 3px 5px 10px -5px black;
+   opacity: 0.7;
 }
 
 .category {
