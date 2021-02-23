@@ -87,7 +87,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
   height: 50px;
-  background: url("./source/logo/wgd-logo_2.png") no-repeat;
+  background: url("./source/logo/wgd-logo_upper_pad.png") no-repeat;
   background-size: auto 50px;
 }
 
@@ -823,7 +823,6 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 
 
 /* 이모티콘 교체 */
-
 
 /* 쭐어콘 1 - 정겨울 등장 */
 img[alt=GlitchLit] {
