@@ -160,7 +160,7 @@ header {
 }
 
 header>#header-area>a>h1 {
-  background: url('./source/logo/wgd-logo_upper_padding.png') no-repeat;
+  background: url('./source/logo/wgd-logo_upper_padding_m.png') no-repeat;
   background-size: auto 36px;
   background-repeat: no-repeat;
   height: unset !important;
