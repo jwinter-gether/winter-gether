@@ -828,9 +828,9 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 /* 쭐어콘 1 - 정겨울 등장 */
 img[alt=GlitchLit] {
 
-    width: 50px !important;
+    width: 40px !important;
 
-    height: 50px !important;
+    height: 40px !important;
 
     content: url("./source/emoticon/zzul_eo/1.png") !important;
 
