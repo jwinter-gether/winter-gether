@@ -820,3 +820,20 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
       box-shadow: 0 0 0 0 rgba(255,141,141, 0);
   }
 }
+
+
+/* 이모티콘 교체 */
+
+
+/* 쭐어콘 1 - 정겨울 등장 */
+img[alt=GlitchLit] {
+
+    width: 50px !important;
+
+    height: 50px !important;
+
+    content: url("./source/emoticon/zzul_eo/1.png") !important;
+
+    background-size: 100%;
+
+}
